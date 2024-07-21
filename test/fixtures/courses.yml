@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyText
+  active: false
+  order: 1
+  moduleId: MyText
+  classId: MyText
+  planId: MyString
+  photoId: MyString
+  categoryId: MyString
+
+two:
+  name: MyString
+  description: MyText
+  active: false
+  order: 1
+  moduleId: MyText
+  classId: MyText
+  planId: MyString
+  photoId: MyString
+  categoryId: MyString
