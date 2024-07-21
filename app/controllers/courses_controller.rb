@@ -2,6 +2,6 @@
 
 class CoursesController < ApplicationController
   def index
-    @courses = %w[Angular React Node MongoDb]
+    @courses = Course.all
   end
 end
