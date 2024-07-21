@@ -23,7 +23,7 @@ Things you may want to cover:
 
 * ...
 
-Extensions on VSCode
+### Extensions on VSCode
 - Ruby  
 - Rails  
 - solargraph + `gem install solargraph`  
@@ -40,5 +40,24 @@ Em Linux: /home/<SeuUsuário>/.config/Code/User/settings.json add:
     "*.html.erb": "erb"
   }
 ```  
+### Rails Commands: 
+- `rails server`
+- `rails generate controller`
+- `rails generate model`
+- `rails console`  
+- `rails db:migrate`
+- `rails db:migrate:status`
 
-
+### Commands to database: `rails console`  
+- `Table.new`  
+- `Table.find(id)`  
+- `Table.find_by`  
+- `Table.count`  
+- `Table.update`  
+- `Table.destroy`  
+- `exit`  
+### Commands in database: `rails dbconsole`  
+- `.tables`  
+- `.schema table_name`  
+- `select * from schema_migrations;`  
+- `.quit`  
