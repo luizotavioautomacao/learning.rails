@@ -22,3 +22,23 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+Extensions on VSCode
+- Ruby  
+- Rails  
+- solargraph + `gem install solargraph`  
+- robocop + `gem install robocop`  
+- Craig Maslowski  
+- ERB Formatter + `gem install htmlbeautifier`  
+Em Linux: /home/<SeuUsuário>/.config/Code/User/settings.json add:  
+```
+ "[erb]": {
+    "editor.defaultFormatter": "sinchang.vscode-erb-beautify",
+    "editor.formatOnSave": true
+  },
+  "files.associations": {
+    "*.html.erb": "erb"
+  }
+```  
+
+
