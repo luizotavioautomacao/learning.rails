@@ -47,6 +47,8 @@ Em Linux: /home/<SeuUsuário>/.config/Code/User/settings.json add:
 - `rails console`  
 - `rails db:migrate`
 - `rails db:migrate:status`
+- `rails generate migration AddXToTable`  
+- `rails generate migration RemoveXFromTable`  
 
 ### Commands to database: `rails console`  
 - `Table.new`  
