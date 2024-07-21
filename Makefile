@@ -1,4 +1,6 @@
 lint:
 	rubocop -A
-up:
+up:	
 	rails server
+migrate:
+	rails db:migrate
