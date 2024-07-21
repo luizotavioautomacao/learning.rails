@@ -5,9 +5,9 @@ class CreateCourses < ActiveRecord::Migration[7.1]
       t.text :description
       t.boolean :active
       t.integer :order
+      t.string :permission
       t.text :moduleId
       t.text :classId
-      t.string :planId
       t.string :photoId
       t.string :categoryId
       t.timestamps

@@ -7,7 +7,7 @@ one:
   order: 1
   moduleId: MyText
   classId: MyText
-  planId: MyString
+  permission: MyString
   photoId: MyString
   categoryId: MyString
 
@@ -18,6 +18,6 @@ two:
   order: 1
   moduleId: MyText
   classId: MyText
-  planId: MyString
+  permission: MyString
   photoId: MyString
   categoryId: MyString
