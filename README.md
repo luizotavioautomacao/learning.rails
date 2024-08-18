@@ -40,6 +40,9 @@ Em Linux: /home/<SeuUsuário>/.config/Code/User/settings.json add:
     "*.html.erb": "erb"
   }
 ```  
+### Rails Links: 
+- `localhost:3000/rails/info/routes`  
+
 ### Rails Commands: 
 - `rails server`
 - `rails generate controller`
@@ -49,6 +52,13 @@ Em Linux: /home/<SeuUsuário>/.config/Code/User/settings.json add:
 - `rails db:migrate:status`
 - `rails generate migration AddXToTable`  
 - `rails generate migration RemoveXFromTable`  
+- `rails db:seed:replant`  
+- `rails g resource registration name:string email:string event:references`  
+- `rails g resource registration name:string email:string event:references`  
+
+#### Console Comands:
+- `reload!`  
+
 
 ### Commands to database: `rails console`  
 - `Table.new`  
@@ -63,3 +73,18 @@ Em Linux: /home/<SeuUsuário>/.config/Code/User/settings.json add:
 - `.schema table_name`  
 - `select * from schema_migrations;`  
 - `.quit`  
+
+#### Column Types:
+
+- string  
+- text  
+- integer  
+- decimal  
+- float  
+- boolean  
+- binary  
+- date  
+- time  
+- datetime  
+- primary_key  
+- timestamp  
