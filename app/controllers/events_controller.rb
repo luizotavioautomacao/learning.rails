@@ -2,6 +2,6 @@
 
 class EventsController < ApplicationController
   def index
-    @events = ['Converse com o seu eu do passado', 'RISC', 'Mapa da Vida']
+    @events = ['Mande uma carta para você no futuro!', 'RISC', 'Mapa da Vida']
   end
 end

@@ -1,0 +1,23 @@
+<p style="color: green"><%= notice %></p>
+<h1><%=pluralize(@users.size, "User") %></h1>
+<div id="users">
+  <% @users.each do |user| %>
+    <%= render user %>
+    <p>
+      <%= link_to "Show this user", user %>
+    </p>
+  <% end %>
+</div>
+<%= link_to "New user", new_user_path %>
+<hr>
+<h1><%= pluralize(@users.size, "User") %></h1>
+<ul class="users">
+  <% @users.each do |user| %>
+    <li>
+      <%= link_to user.name, user %>
+      created
+      <%= time_ago_in_words(user.created_at) %> ago
+    </li>
+  <% end %>
+</ul>
+<%= link_to "New user", new_user_path %>
