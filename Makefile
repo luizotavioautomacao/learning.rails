@@ -6,3 +6,7 @@ migrate:
 	sudo rails db:migrate
 status:
 	sudo rails db:migrate:status
+i:
+	bundle install
+c:
+	sudo rails console
