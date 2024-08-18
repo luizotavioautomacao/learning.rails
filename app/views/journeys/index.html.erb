@@ -1,0 +1,6 @@
+<ul>
+  <%@journeys.each do |journey|%>
+    <li><%=link_to(journey, journey_path(journey))%></li>
+    <%=  %>
+  <%end%>
+</ul>
