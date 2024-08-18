@@ -50,14 +50,21 @@ Em Linux: /home/<SeuUsuário>/.config/Code/User/settings.json add:
 - `rails console`  
 - `rails db:migrate`
 - `rails db:migrate:status`
+- `rails db:rollback` # reverses the last applied migration  
 - `rails generate migration AddXToTable`  
 - `rails generate migration RemoveXFromTable`  
 - `rails db:seed:replant`  
+- `rails db:seed`  
+- `rails db:reset`  
 - `rails g resource registration name:string email:string event:references`  
 - `rails g resource registration name:string email:string event:references`  
+- `rails -T`  
+- ``  
+- ``  
 
 #### Console Comands:
 - `reload!`  
+- `u=User.new u.errors.full_messages`
 
 
 ### Commands to database: `rails console`  
