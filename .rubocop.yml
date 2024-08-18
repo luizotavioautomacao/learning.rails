@@ -6,4 +6,3 @@ Layout/LineLength:
 
 Style/FrozenStringLiteralComment:
   Enabled: false
-
