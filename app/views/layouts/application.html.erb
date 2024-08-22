@@ -6,13 +6,24 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
-    <nav>
-      <%= link_to("Eventos", events_path) %>
-      <%= link_to("Jornadas", journeys_path) %>
-      <%= link_to("Cursos", courses_path) %>
-    </nav>
+    <%= javascript_importmap_tags %>
   </head>
   <body>
-    <%= yield %>
+    <header>
+      <%= image_tag("favicon.jpeg", width: "100", height: "100") %>
+      <%= link_to("Eventos", events_path, class: "white-bg") %>
+      <%= link_to("Jornadas", journeys_path, class: "white-bg") %>
+      <%= link_to("Cursos", courses_path, class: "white-bg") %>
+    </header>
+    <div class="content">
+      <%= yield %>
+    </div>
+    <footer>
+      <p>
+        © <%= Time.now.year %> GoTech.Education Learn Business, Technology and SoftSkills | Todos os direitos reservados.
+        <br>
+        Desenvolvido por <a href="https://gotech.education" class="footer-link">gotech.education</a>
+      </p>
+    </footer>
   </body>
 </html>

@@ -1,16 +1,17 @@
 // Colors
 
-$black: #393939;
+$black: #081E39;
 $off-white: #ededed;
 $dark-gray: #666;
-$medium-gray: #6c757d;
+$medium-gray: #4F5B66;
 $light-gray: #c2c2c2;
-$blue: #237cbe;
+$blue: #A4B8D0;
+$white: #F1F1F1;
 $light-blue: lighten($blue, 40%);
-$orange: #e8890c;
-$yellow: #ffc107;
+$orange: #F17D6A;
+$yellow: #D9432F;
 $light-yellow: #ffc;
-$red: #dc3545;
+$red: #E44634;
 
 // Custom Variables
 
@@ -26,7 +27,7 @@ $sold-out-color: $yellow;
 
 $body-color: $black;
 $body-bg: $off-white;
-$primary: $blue;
+$primary: $black;
 $secondary: $dark-gray;
 $min-contrast-ratio: 4;
 $input-bg: white;
@@ -127,6 +128,26 @@ header {
     margin-left: 1rem;
     color: $light-blue;
     font-size: 2.5rem;
+  }
+}
+
+.white-bg {
+  background-color: $white;
+  color: $primary;
+  padding: 0.5rem;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: $off-white;
+    color: $secondary;
+  }
+}
+
+.footer-link {
+  color: $white;
+
+  &:hover {
+    color: $light-blue;
   }
 }
 
