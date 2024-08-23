@@ -75,7 +75,6 @@ Em Linux: /home/<SeuUsuário>/.config/Code/User/settings.json add:
 - `.quit`  
 
 #### Column Types:
-
 - string  
 - text  
 - integer  
