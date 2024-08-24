@@ -25,5 +25,9 @@ module GotechRails
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+
+    # Usar a Tradução no Código: Certifique-se de que o idioma padrão do Rails esteja configurado para português
+    # em config/application.rb
+    # config.i18n.default_locale = :pt
   end
 end
