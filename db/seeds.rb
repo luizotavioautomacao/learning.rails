@@ -13,60 +13,78 @@ Event.create!([
                   name: 'Entendendo a história dos computadores',
                   location: 'online, gotech.education/eventos/historia_computadores',
                   price: 0.00,
-                  starts_at: 60.days.ago,
+                  starts_at: Time.now + 60.days,
                   description: %(
 A história da revolução industrial. Como os computadores funcionam? O que é a física?
-).squish
+).squish,
+                  image_file: 'placeholder.png'
                 },
                 {
                   name: 'O futuro chegou',
                   location: 'online, gotech.education/eventos/o_futuro_chegou',
                   price: 0.00,
-                  starts_at: 30.days.from_now,
+                  starts_at: Time.now + 30.days,
                   description: %(
       Nesse aula, vamos estudar sobre as tecnologias do mundo moderno,
         e do processo de adaptabilidade necessária para liderança.
           As ferramentas de softskills necessárias para alavancar as suas ideias!
-    ).squish
+    ).squish,
+                  image_file: 'placeholder.png'
                 },
                 {
                   name: 'Hackathon',
                   location: 'online, gotech.education/eventos/hachathon',
                   price: 0.00,
-                  starts_at: 45.days.from_now,
+                  starts_at: Time.now + 45.days,
                   description: %(
       Nesse aula vamos abordar quais ferramentas serão usadas no curso de Transformação Digital.
       As ferramentas básicas, serão usadas nessa aula.
-    ).squish
+    ).squish,
+                  image_file: 'ninjas.png'
                 },
                 {
                   name: 'Hacker Digital',
                   location: 'online, gotech.education/eventos/hacker_digital',
                   price: 0.00,
-                  starts_at: 65.days.from_now,
+                  starts_at: Time.now + 65.days,
                   description: %(
       Não seja um leigo e aprenda a tecnologia para ter mais segurança para você!
-    ).squish
+    ).squish,
+                  image_file: 'bugsmash.png'
                 },
                 {
                   name: 'Como viabilizar um negócio a partir da minha ideia?',
                   location: 'online, gotech.education/eventos/viabilizar_minha_ideia',
                   price: 0.00,
-                  starts_at: 90.days.ago,
+                  starts_at: Time.now + 90.days,
                   description: %(
       Nessa aula, vamos estudar a metodologia Lean StartUp aplicada no Business Canvas.
       No curso também será trabalhado como fazer o benchmark e ferramentas de protipação
-    ).squish
+    ).squish,
+                  image_file: 'coffee-code.png'
                 },
                 {
                   name: 'Validei a minha ideia e quero construí-la',
                   location: 'online, gotech.education/eventos/densenvolver_ideia',
+                  price: 0.00,
+                  starts_at: Time.now + 120.days,
+                  description: %(
+      Nessa aula vamos aprender todo o fluxo no desenvolvimento de uma ideia.
+      Vamos investir nosso tempo para aprender as melhores ferramentas.
+      Se o seu modelo de negócio envolve tecnologia, então seu core business é tecnologia!
+    ).squish,
+                  image_file: 'gotech.future.png'
+                },
+                {
+                  name: 'Como construir um MVP',
+                  location: 'online, gotech.education/eventos/mvp',
                   price: 0.00,
                   starts_at: 120.days.ago,
                   description: %(
       Nessa aula vamos aprender todo o fluxo no desenvolvimento de uma ideia.
       Vamos investir nosso tempo para aprender as melhores ferramentas.
       Se o seu modelo de negócio envolve tecnologia, então seu core business é tecnologia!
-    ).squish
+    ).squish,
+                  image_file: 'ruby-user-group.png'
                 }
               ])
