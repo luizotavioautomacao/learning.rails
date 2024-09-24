@@ -1,8 +1,8 @@
 lint:
 	rubocop -A
 up:	
-	sudo make rm && sudo rails server
-m:
+	sudo rails server
+migrate:
 	sudo rails db:migrate
 status:
 	sudo rails db:migrate:status
@@ -10,7 +10,7 @@ i:
 	bundle install
 c:
 	sudo rails console
-r:
+reset:
 	sudo rails db:reset
-rm:
-	sudo make m && sudo make r
+restart:
+	sudo make migrate && sudo make reset
