@@ -87,3 +87,8 @@ Em Linux: /home/<SeuUsuário>/.config/Code/User/settings.json add:
 - datetime  
 - primary_key  
 - timestamp  
+
+### Main files
+- config/routes.rb  
+- app/views/layouts/application.html.erb  
+- 
